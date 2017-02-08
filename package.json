@@ -1,0 +1,30 @@
+{
+  "name": "export-config",
+  "version": "1.0.0",
+  "description": "This is a Node module to help developers to export the right configuration to the environment thisthe application is running",
+  "main": "index.js",
+  "engines": {
+    "node": "6.9.5"
+  },
+  "scripts": {
+    "test": "mocha tests/index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebot/exportConfig.git"
+  },
+  "keywords": [
+    "Export",
+    "config"
+  ],
+  "author": "André Almeida <andrebot_almeida@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrebot/exportConfig/issues"
+  },
+  "homepage": "https://github.com/andrebot/exportConfig#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
