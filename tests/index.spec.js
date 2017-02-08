@@ -52,4 +52,19 @@ describe('Export Configuration', function () {
 
     (function () {exportConfig(copyCnfg)}).should.throw(Error);
   });
+
+  it('should load only the default attribute if I don\'t have another attribute in my ConfigObj', function () {
+    const copyCnfg = Object.assign({}, dummyConfig);
+
+    delete copyCnfg.production;
+    delete copyCnfg.development;
+
+    copyCnfg.default.opa = 1;
+
+    const defaultConf = exportConfig(copyCnfg);
+
+    defaultConf.should.exists;
+    defaultConf.opa.should.exists;
+    defaultConf.aha.should.exists;
+  });
 });
