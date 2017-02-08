@@ -73,4 +73,4 @@ This way we can arrange our configuration files as:
 |   ...
 +-- index.js
 ```
-And import each configuration file separetly nicely and seemlessly ass `require('./config/mongo.js')`.
+And import each configuration file separetly nicely and seemlessly as `require('./config/mongo.js')`.
