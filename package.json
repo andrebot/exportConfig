@@ -1,10 +1,10 @@
 {
   "name": "export-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a Node module to help developers to export the right configuration to the environment thisthe application is running",
   "main": "index.js",
   "engines": {
-    "node": "6.9.5"
+    "node": "^16.14.1"
   },
   "scripts": {
     "test": "mocha tests/index.spec.js"
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/andrebot/exportConfig#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "npm-check-updates": "^16.6.2"
   }
 }
