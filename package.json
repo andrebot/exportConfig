@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is a Node module to help developers to export the right configuration to the environment thisthe application is running",
   "main": "index.js",
-  "engines": {
-    "node": "6.9.5"
-  },
   "scripts": {
     "test": "mocha tests/index.spec.js"
   },
