@@ -4,7 +4,7 @@
   "description": "This is a Node module to help developers to export the right configuration to the environment thisthe application is running",
   "main": "index.js",
   "engines": {
-    "node": "^16.14.1"
+    "node": ">=14 <19"
   },
   "scripts": {
     "test": "mocha tests/index.spec.js"
