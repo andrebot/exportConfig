@@ -1,5 +1,5 @@
 // Define the shape of the configuration object
-interface ConfigObject {
+export interface ConfigObject {
   /**
    * Default configuration regardless the environment you are in
    */
@@ -14,6 +14,4 @@ interface ConfigObject {
   required?: string[];
 }
 
-declare function ExportConfig(configObj: ConfigObject): Record<string, any>;
-
-export = ExportConfig;
+export default function ExportConfig(configObj: ConfigObject): Record<string, any>;
